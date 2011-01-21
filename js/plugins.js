@@ -100,7 +100,7 @@ window.log = function(){
       <div class="popup"> \
         <div class="content"> \
         </div> \
-        <a href="#" class="close"><img src="/facebox/closelabel.png" title="close" class="close_image" /></a> \
+        <a href="#" class="close"><img src="images/closelabel.png" title="close" class="close_image" /></a> \
       </div> \
     </div>'
     },
@@ -115,8 +115,8 @@ window.log = function(){
         append('<div class="loading"><img src="'+$.facebox.settings.loadingImage+'"/></div>')
 
       $('#facebox').css({
-        top:	getPageScroll()[1] + (getPageHeight() / 10),
-        left:	$(window).width() / 2 - 205
+        top:    getPageScroll()[1] + (getPageHeight() / 10),
+        left:   ($(window).width() - $('#facebox').width()) / 2
       }).show()
 
       $(document).bind('keydown.facebox', function(e) {
