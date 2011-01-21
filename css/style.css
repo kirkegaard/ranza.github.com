@@ -389,6 +389,15 @@ header {}
         .job h3:hover {
             color: #888;
         }
+    .social {
+        list-style:none;
+        margin: 0px;
+        padding: 0px;
+    }
+        .social li {
+            float:left;
+            margin-right: 10px;
+        }
     .edu {
         margin-bottom: 20px;
     }
