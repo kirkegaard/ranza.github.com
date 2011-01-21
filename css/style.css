@@ -342,8 +342,12 @@ h3 {
     font-size: 18px;
     margin-bottom: 5px;
 }
-h4 {}
-h5 {}
+h4 {
+    font-size: 16px;
+}
+h5 {
+    font-size: 12px;
+}
 h6 {}
 small {
     font-weight: bold;
@@ -385,7 +389,9 @@ header {}
         .job h3:hover {
             color: #888;
         }
-
+    .edu {
+        margin-bottom: 20px;
+    }
 footer {
     margin-top: 20px;
 }
