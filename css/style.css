@@ -364,7 +364,14 @@ p {
 }
 header {}
 #main {}
-    .resume {}
+    .resume {
+        position:relative;
+    }
+        .resume .clickhere {
+            position:absolute;
+            top: -45px;
+            left: -15px;
+        }
     .cv {}
     .description {
         display:none;
