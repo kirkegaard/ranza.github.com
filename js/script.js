@@ -9,9 +9,7 @@ var R = {
         });
         
         $('a[rel*=facebox]').facebox();
-        $(document).bind('reveal.facebox', function() {
-            alert('wo');
-        });
+        //$(document).bind('reveal.facebox', function() {});
     }
 
 }
