@@ -7,6 +7,12 @@ var R = {
         $('.job h3').bind('click', function(event) {
             $(this).parent().find('.description').slideToggle();
         });
+
+        $('a[rel*=lightbox]').lightBox({
+            overlayBgColor: '#000',
+            overlayOpacity: 0.2,
+        });
+
     }
 
 }
